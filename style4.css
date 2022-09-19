@@ -1,0 +1,61 @@
+h1{
+  color: white;
+}
+
+h2{
+color: blue;
+
+}
+
+h3{
+background-color: yellow;
+
+
+}
+
+h4{
+background-color: green;
+color: yellow;
+
+}
+
+h5{
+color: red;
+
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+
+.yellowback{
+  background-color: yellow;
+}
+
+.purpleback{
+  background-color: violet;
+}
+.turnred{
+  color: red;
+}
+
+.turnlime{
+  background-color: lime;
+}
+
+.turnorange{
+color: orange;
+
+}
+
+#redback {
+  background-color: red;
+}

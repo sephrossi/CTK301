@@ -1,61 +1,65 @@
 h1{
-  color: white;
+  color: orange;
+  background-color: white;
+  font-style: italic;
+  font-weight: none;
 }
 
 h2{
-color: blue;
-
+color: orange;
+background-color: white;
+font-style: italic;
+font-weight: none;
 }
 
 h3{
-background-color: yellow;
-
-
+  color: orange;
+background-color: white;
+  font-style: italic;
+  font-weight: none;
 }
 
-h4{
-background-color: green;
-color: yellow;
-
+body{
+  background: 255, 255, 100, 50;
+  text-align: center;
 }
 
-h5{
-color: red;
 
+nav{
+  text-align: justify;
 }
 
-a{
+
+.bodytext{
+  font-family: sans-serif;
+  background-image: url(isubackground.jpg);
+  background-repeat: 2, 2;
+  background-position: top left;
+  }
+
+
+.imageframe {
+    border: 10px solid #000000;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    }
+
+.whitebackground {
+  background-color: white;
+}
+
+a:visited{
   color: green;
-  text-decoration: none;
 }
+
 
 
 a:hover {
- color: red;
- text-decoration: underline;
+ color: yellow;
 }
 
 
-.yellowback{
-  background-color: yellow;
-}
-
-.purpleback{
-  background-color: violet;
-}
-.turnred{
+a:default {
   color: red;
-}
-
-.turnlime{
-  background-color: lime;
-}
-
-.turnorange{
-color: orange;
-
-}
-
-#redback {
-  background-color: red;
 }

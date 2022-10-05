@@ -1,0 +1,135 @@
+h1{
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h2{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+}
+
+  header {
+    margin: 10px;
+    grid-column: span 6;
+    background-color: black;
+
+  }
+
+
+
+
+#whitebackground{
+  background-color: white;
+}
+
+
+
+
+
+
+nav {
+  grid-column: span 1;
+
+}
+
+
+nav ul {
+list-style-type: none;
+margin: 6px;
+padding: 10px;
+
+}
+
+nav li {
+background-color: red;
+border: 1px solid black;
+margin: 5px 5px 5px 5px;
+padding: 0px;
+width: 150px;
+
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  font-weight: normal;
+}
+
+nav li a:hover {
+  background-color: darkred;
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+}
+
+
+main{
+grid-column: span 5;
+margin: 5px;
+background-color: white;
+
+}
+
+
+a:hover {
+ color: blue;
+ text-decoration: underline;
+}
+
+
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+footer{
+  font-family: Verdana;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  background-color: red;
+  grid-column: span 6;
+
+}
+
+
+
+.floatimg{
+  grid-column: span 4;
+  float: left;
+  margin-right: 10px;
+  border: 5px solid black;
+  padding: 5px;
+}
+
+
+.boldtext{
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: normal;
+  text-align: justify;
+}
+
+
+.whole{
+background-image: url(a62.png);
+
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 961px;
+  border: 5px solid black;
+  display: grid;
+  background-color: white;
+  grid-template-columns: repeat(6,1fr);
+
+}

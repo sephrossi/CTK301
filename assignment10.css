@@ -1,8 +1,9 @@
 h1{
-  color: lightblue;
-  font-family: Verdana, sans-serif;
-  font-weight: normal;
+  color: black;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
   width: 25%;
+  padding-left: 75px;
 }
 
 
@@ -19,19 +20,27 @@ h2{
   font-family: helvetica;
   font-weight: bold;
   border-bottom: 5px solid white;
-  color: white
+  color: white;
+}
+h3{
+  text-align: justify;
+  font-family: helvetica;
+  font-weight: bold;
+  color: silver;
 }
 
   header {
     margin: 0px;
     grid-column: span 6;
-  /*background: linear-gradient(45deg, red, blue);*/
-    background: radial-gradient(
+    background-image: url(header.jpg);
+    /*background-size: 5px;*/
+  /*background: linear-gradient(darkblue, blue, teal); */
+  /*  background: radial-gradient(
       ellipse farthest-corner at 10% 90%,
       white,
       blue 10%,
       #1e90ff 50%,
-      darkblue);
+      darkblue); */
   /*  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae); */
     border: 10px solid darkblue;
     padding: 0px;
@@ -80,30 +89,41 @@ main{
 grid-column: span 6;
 margin: 5px;
 background-color: black;
-
+text-align: center;
 }
 
 
 a:hover {
  color: blue;
  text-decoration: underline;
+ transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 
 
+
 a {
-  color: red;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
+/*b {
+  color: black;
+  font-weight: bold;
+  text-decoration: none; */
+}
 
 
 .floatimg{
   grid-column: span 4;
-  float: left;
+  float: right;
   margin: 10px;
-  border: 5px solid darkblue;
+  border: 10px solid darkblue;
   padding: 5px;
+  height: 200px;
+  width: auto;
+  border-radius: 10px 10px 20px 10px;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
 }
 
 .floatimg2{
@@ -112,6 +132,7 @@ a {
   margin: 10px;
   border: 5px solid darkblue;
   padding: 5px;
+  box-shadow: 10px 10px 10px silver; /* x, y, blur, color */
 }
 
 .floatimg3{
@@ -126,6 +147,8 @@ footer{
   grid-column: span 6;
   background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
   border: 10px solid darkblue;
+  text-align: center;
+  margin: 20px;
 
 
 }
@@ -147,10 +170,51 @@ footer{
   font-style: normal;
   text-align: justify;
 }
+.whiteText{
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
 
 
+.whiteText2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  color: white;
+}
+
+.whiteText3{
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+}
+
+.italics1{
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  font-style: italic;
+}
+.bigtitle{
+  font-family: 'Brush Script MT', cursive;
+  font-size: 60px;
+  color: blue;
+  border-bottom: 7px solid darkblue;
+}
 .whole{
-background-color: darkblue;
+background: radial-gradient(
+  ellipse farthest-corner at 10% 90%,
+  white,
+  blue 10%,
+  #1e90ff 50%,
+  darkblue);
 
 }
 
@@ -166,9 +230,9 @@ background-color: darkblue;
 }
 
 .carousel {
-  color: white;
+  color: silver;
 
-  --carousel-button-bg: white;
+  --carousel-button-bg: black;
   --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
           0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
 
@@ -186,6 +250,6 @@ background-color: darkblue;
   height: 500px;
   margin-right: 20px;
 
-  background-color: #eee;
+  background-color: white;
   border-radius: 6px;
 }
